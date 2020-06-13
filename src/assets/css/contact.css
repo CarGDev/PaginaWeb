@@ -48,6 +48,10 @@ input {
   vertical-align: middle;
 }
 
+.form-password__input {
+  text-align: start;
+}
+
 .form-message__input {
   height: 250px;
 }

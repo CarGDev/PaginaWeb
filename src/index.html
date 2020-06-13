@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CarGDev</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="./assets/images/Logo.png">
+  <link rel="icon" type="image/png" href="./assets/images/entretenimiento.png">
   <link rel="stylesheet" href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/main.css" />
   <link rel="stylesheet" href="./assets/css/contact.css">
@@ -15,7 +15,7 @@
     <header class="head">
       <section class="header">
         <figure class="logo">
-          <img src="" alt="">Logo
+          <img src="./assets/images/Logo1.JPG" alt="">
         </figure>
       </section>
       <section class="headerTitle">
@@ -29,7 +29,7 @@
           <a href="">Contact</a>
         </ul>
         <ul class="item">
-          <a href="https://platzi.com/@CarGDev/">Platzi</a>
+          <a href="https://platzi.com/@CarGDev/" target="_blank">Platzi</a>
         </ul>
       </section>
     </header>
@@ -53,41 +53,37 @@
       </section>
       <section class="contact">
         <p class="title">Contact</p>
-        <div class="form">
+        <form action="mailto:ingecarlos.gutierrez@gmail.com" method="post" enctype="text/plain" class="form">
           <section class="form-name">
             <label for="name-input" class="form-name__label">Name:*</label>
-            <input type="text" class="form-name__input" id="name-input">
+            <input type="text" name="Name" value="Name" class="form-name__input" id="name-input">
           </section>
           <section class="form-lastname">
             <label for="lastname-input" class="form-lastname__input" class="form-lastname__label">Last name:*</label>
-            <input type="text" class="form-lastname__input" id="lastname-input">
+            <input type="text" name="lastName" value="Last Name" class="form-lastname__input" id="lastname-input">
           </section>
           <section class="form-email">
             <label for="email-input" class="form-email__label">E-mail:*</label>
-            <input type="mail" class="form-email__input" id="email-input">
-          </section>
-          <section class="form-password">
-            <label for="password-input" class="form-password__label">Subject:*</label>
-            <input type="password" class="form-password__input" id="password-input">
+            <input type="mail" name="email" value="email@dominio.com" class="form-email__input" id="email-input">
           </section>
           <section class="form-message">
             <label for="message-input" class="form-message__label">Subject:*</label>
-            <input type="message" class="form-message__input" id="message-input">
+            <input type="message" name="Message" value="Message" class="form-message__input" id="message-input">
           </section>
           <section class="form-buttons">
             <button class="form-buttons__accept">Send</button>
           </section>
-        </div>
+        </form>
       </section>
     </section>
     <footer class="foot">
       <div class="foot-item">
         <figure class="social">
-          <img src="./assets/images/iCONS/github.png" alt="">
+          <img src="./assets/images/iCONS/github.png" target="_blank" alt="">
           <a href="https://github.com/CarGDev">GitHub</a>
         </figure>
         <figure class="social">
-          <img src="./assets/images/iCONS/linkedin.png" alt="">
+          <img src="./assets/images/iCONS/linkedin.png" target="_blank" alt="">
           <a href="https://www.linkedin.com/in/cargdev/">LinkedIn</a>
         </figure>
       </div>
@@ -97,8 +93,14 @@
           <a href="https://cargdev.com">ingecarlos.gutierrez@gmail.com</a>
         </figure>
         <figure class="social">
-          <img src="./assets/images/iCONS/twitter.png" alt="">
+          <img src="./assets/images/iCONS/twitter.png" target="_blank" alt="">
           <a href="https://twitter.com/CarGDev">Twitter</a>
+        </figure>
+      </div>
+      <div class="foot-item">
+        <figure class="social">
+          <img src="./assets/images/iCONS/Capture.JPG" target="_blank" alt="">
+          <a href="https://platzi.com/r/CarGDev/">Obten un mes gratis en Platzi</a>
         </figure>
       </div>
     </footer>

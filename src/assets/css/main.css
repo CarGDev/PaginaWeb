@@ -78,6 +78,9 @@ a {
   /* height: 410px; */
   opacity: 70%;
 }
+.header .logo img {
+  width: 50px;
+}
 
 .head {
   display: grid;
@@ -95,7 +98,7 @@ a {
 
 .foot {
   display: grid;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 300px 600px 1fr;
   grid-gap: 20px;
   background-color: #376A38;
   align-content: center;
