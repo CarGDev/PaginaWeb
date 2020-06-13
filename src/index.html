@@ -4,63 +4,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CarGDev</title>
-  <link rel="icon" type="image/jpg" href="./assets/images/IMG_20190420_223647_636.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./assets/images/Logo.png">
   <link rel="stylesheet" href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css">
 </head>
 <body>
-  <header>
-    <div>
-      <figure>
-        <img src="./assets/images/YOVIRGENEXTRA-consultoria-1.png" alt="" id="img-logo">CarGDev
-      </figure>
-      <nav>
-        <ol>
-          <li>
-            <a href="">Portafolio</a>
-          </li>
-          <li>
-            <a href="">Eventos</a>
-          </li>
-          <li>
-            <a href="">Contacto</a>
-          </li>
-          <li>
-            <a href="">Trabajemos Juntos</a>
-          </li>
-        </ol>
-      </nav>
-    </div>
-  </header>
-  <section>
-    <h1>
-      Hola soy <strong>Carlos Gutierrez</strong>  <br> Desarrollador JR JavaScript
-    </h1>
-    <img src="./assets/images/IMG_20190420_223647_636.jpg" alt="" id="img-foto"> Mi immagen
+  <section class="container">
+    <header class="head">
+      <section class="header">
+        <figure class="logo">
+          <img src="" alt="">Logo
+        </figure>
+      </section>
+      <section class="headerTitle">
+        <ul class="item">
+          <a href="">Bio</a>
+        </ul>
+        <ul class="item">
+          <a href="">Project</a>
+        </ul>
+        <ul class="item">
+          <a href="">Contact</a>
+        </ul>
+      </section>
+    </header>
+    <section class="body">
+      <section class="bio">
+        <figure class="image">
+          <img src="./assets/images/IMG_20190420_223647_636.jpg" alt="">
+        </figure>
+        <section class="titleSection">
+          <p class="title">Carlos Gutiérrez</p>
+          <p class="ocupacy">Mechatronic Engineer</p>
+          <p class="subtitle">Front-End Developer</p>
+          <p class="description">
+            I'm mechatronic Engineer currently I'm work as a frontend developer as freelancer, below I have the portfolio and if you want work together don't hesitate to contact me.
+            Constantly I'm learning more lenguajes and software to switch between frontend and backend.
+          </p>
+        </section>
+      </section>
+      <section class="projects">
+        <p class="title">Projects</p>
+      </section>
+      <section class="contact">
+        <p class="title">Contact</p>
+        <div class="form">
+          <section class="form-name">
+            <label for="name-input" class="form-name__label">Name:*</label>
+            <input type="text" class="form-name__input" id="name-input">
+          </section>
+          <section class="form-lastname">
+            <label for="lastname-input" class="form-lastname__input" class="form-lastname__label">Last name:*</label>
+            <input type="text" class="form-lastname__input" id="lastname-input">
+          </section>
+          <section class="form-email">
+            <label for="email-input" class="form-email__label">E-mail:*</label>
+            <input type="mail" class="form-email__input" id="email-input">
+          </section>
+          <section class="form-password">
+            <label for="password-input" class="form-password__label">Subject:*</label>
+            <input type="password" class="form-password__input" id="password-input">
+          </section>
+          <section class="form-message">
+            <label for="message-input" class="form-message__label">Subject:*</label>
+            <input type="message" class="form-message__input" id="message-input">
+          </section>
+          <section class="form-buttons">
+            <button class="form-buttons__accept">Send</button>
+          </section>
+        </div>
+      </section>
+    </section>
+    <footer class="foot">
+      <div class="foot-item">
+        <figure class="social">
+          <img src="./assets/images/iCONS/github.png" alt="">
+          <a href="https://github.com/CarGDev">GitHub</a>
+        </figure>
+        <figure class="social">
+          <img src="./assets/images/iCONS/linkedin.png" alt="">
+          <a href="https://www.linkedin.com/in/cargdev/">LinkedIn</a>
+        </figure>
+      </div>
+      <div class="foot-item">
+        <figure class="social">
+          <img src="./assets/images/iCONS/correo-electronico.png" alt="">
+          <a href="https://cargdev.com">ingecarlos.gutierrez@gmail.com</a>
+        </figure>
+        <figure class="social">
+          <img src="./assets/images/iCONS/twitter.png" alt="">
+          <a href="https://twitter.com/CarGDev">Twitter</a>
+        </figure>
+      </div>
+    </footer>
   </section>
-  <section>
-    <h2>Portafolio (proyectos destacados)</h2>
-    <article>
-      <h3>Platzi video</h3>
-      <h6>ReactNatyive /head </h6>
-      <p><small><strong>Fecha:</strong>  la de hoy</small>  </p>
-      <p>Aqui explico de que va esto</p>
-      <p></p>
-      <p></p>
-    </article>
-  </section>
-  <section>
-    <h2>Eventos</h2>
-    <article>
-      <figure>
-        <img src="" alt="">
-      </figure>
-      <h3>Platzi platica</h3>
-      <p>Que pasotes con los eletos</p>
-      <a href="">Ver platica</a>
-    </article>
-  </section>
-  <section>Contacto</section>
-  <footer>Footer</footer>
 </body>
 </html>
