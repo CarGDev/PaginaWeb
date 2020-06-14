@@ -3,6 +3,7 @@ body{
   font-family: 'Roboto', sans-serif;
   color: #F1F1EC;
 }
+
 p {
   font-size: 25px;
 }
@@ -33,6 +34,7 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 90px minmax(600px 1fr) 500px;
+  justify-items: center;
 }
 
 .header {

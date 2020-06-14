@@ -9,32 +9,35 @@
   <link rel="stylesheet" href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/main.css" />
   <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="stylesheet" href="./assets/css/project.css">
 </head>
 <body>
   <section class="container">
     <header class="head">
-      <section class="header">
-        <figure class="logo">
-          <img src="./assets/images/Logo1.JPG" alt="">
-        </figure>
-      </section>
-      <section class="headerTitle">
-        <ul class="item">
-          <a href="">Bio</a>
-        </ul>
-        <ul class="item">
-          <a href="">Project</a>
-        </ul>
-        <ul class="item">
-          <a href="">Contact</a>
-        </ul>
-        <ul class="item">
-          <a href="https://platzi.com/@CarGDev/" target="_blank">Platzi</a>
-        </ul>
-      </section>
+      <!-- <nav> -->
+        <section class="header">
+          <figure class="logo">
+            <img src="./assets/images/Logo1.JPG" alt="">
+          </figure>
+        </section>
+        <nav class="headerTitle">
+          <ul class="item">
+            <a href="#Bio">Bio</a>
+          </ul>
+          <ul class="item">
+            <a href="#Project">Project</a>
+          </ul>
+          <ul class="item">
+            <a href="#Contact">Contact</a>
+          </ul>
+          <ul class="item">
+            <a href="https://platzi.com/@CarGDev/" target="_blank">Platzi</a>
+          </ul>
+        </nav>
+      <!-- </nav> -->
     </header>
     <section class="body">
-      <section class="bio">
+      <section class="bio" id="Bio">
         <figure class="image">
           <img src="./assets/images/IMG_20190420_223647_636.jpg" alt="">
         </figure>
@@ -48,10 +51,54 @@
           </p>
         </section>
       </section>
-      <section class="projects">
+      <section class="projects" id="Project">
         <p class="title">Projects</p>
+        <div class="Projects-container">
+          <div class="content">
+            <div class="project">
+              <figure class="project-img">
+                <img src="./assets/images/Projects/Pagina Web.JPG" alt="">
+              </figure>
+              <div class="titles">
+                <div class="project-title">
+                  <a href="https://cargdev.com">Personal web page</a>
+                </div>
+                <div class="project-description">
+                  <p>
+                    Own web page where show my principal projects.
+                  </p>
+                </div>
+              </div>
+              <div class="techs">
+                <p class="tech-title">Technologies used</p>
+                <div class="tech-techs">
+                  <div class="project-technologies">
+                    <div>
+                      <figure class="tech-icon">
+                        <img src="./assets/images/iCONS/html-5.png" alt="">
+                      </figure>
+                      <p>HTML</p>
+                    </div>
+                    <div>
+                      <figure class="tech-icon">
+                        <img src="./assets/images/iCONS/css.png" alt="">
+                      </figure>
+                      <p>CSS</p>
+                    </div>
+                    <div>
+                      <figure class="tech-icon">
+                        <img src="./assets/images/iCONS/1200px-Adobe_XD_CC_icon.svg.png" alt="">
+                      </figure>
+                      <p>CSS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="Contact">
         <p class="title">Contact</p>
         <form action="mailto:ingecarlos.gutierrez@gmail.com" method="post" enctype="text/plain" class="form">
           <section class="form-name">
