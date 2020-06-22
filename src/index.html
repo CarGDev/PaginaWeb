@@ -8,149 +8,108 @@
   <link rel="icon" type="image/png" href="./assets/images/entretenimiento.png">
   <link rel="stylesheet" href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/main.css" />
-  <link rel="stylesheet" href="./assets/css/contact.css">
-  <link rel="stylesheet" href="./assets/css/project.css">
 </head>
 <body>
   <section class="container">
     <header class="head">
-      <!-- <nav> -->
-        <section class="header">
-          <figure class="logo">
-            <img src="./assets/images/Logo1.JPG" alt="">
-          </figure>
-        </section>
-        <nav class="headerTitle">
-          <ul class="item">
-            <a href="#Bio">Bio</a>
-          </ul>
-          <ul class="item">
-            <a href="#Project">Project</a>
-          </ul>
-          <ul class="item">
-            <a href="#Contact">Contact</a>
-          </ul>
-          <ul class="item">
-            <a href="https://platzi.com/@CarGDev/" target="_blank">Platzi</a>
-          </ul>
-        </nav>
-      <!-- </nav> -->
-    </header>
-    <section class="body">
-      <section class="bio" id="Bio">
-        <figure class="image">
-          <img src="./assets/images/IMG_20190420_223647_636.jpg" alt="">
+      <div class="head-section">
+        <figure class="logo">
+          <img src="./assets/images/CARGDEV_logo-02.png" alt="" class="logo-img">
         </figure>
-        <section class="titleSection">
-          <p class="title">Carlos Gutiérrez</p>
-          <p class="ocupacy">Mechatronic Engineer</p>
-          <p class="subtitle">Front-End Developer</p>
-          <p class="description">
-            I'm mechatronic Engineer currently I'm work as a frontend developer as freelancer, below I have the portfolio and if you want work together don't hesitate to contact me.
-            Constantly I'm learning more lenguajes and software to switch between frontend and backend.
-          </p>
-        </section>
-      </section>
-      <section class="projects" id="Project">
-        <p class="title">Projects</p>
-        <div class="Projects-container">
-          <div class="content">
-            <div class="project">
-              <figure class="project-img">
-                <img src="./assets/images/Projects/Pagina Web.JPG" alt="">
+      </div>
+      <div class="head-section">
+        <div class="lista">
+          <ul class="lista-section">
+            <a href="#about">Acerca de mí</a>
+          </ul>
+        </div>
+      </div>
+      <div class="head-section">
+        <div class="lista">
+          <ul class="lista-section">
+            <a href="#projects">Proyectos</a>
+          </ul>
+        </div>
+      </div>
+      <div class="head-section">
+        <div class="lista">
+          <ul class="lista-section">
+            <a href="#blog">Blog</a>
+          </ul>
+        </div>
+      </div>
+      <div class="head-section">
+        <div class="lista">
+          <ul class="lista-section">
+            <a href="#videos">Videos</a>
+          </ul>
+        </div>
+      </div>
+      <div class="head-section">
+        <div class="lista">
+          <ul class="lista-section">
+            <a href="#contact">Contacto</a>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="content">
+      <div class="section"> <!-- 1 -->
+        <div class="about">
+          <div class="about-content">
+            <figure class="background">
+              <img src="./assets/images/BackGround.jpg" alt="">
+            </figure>
+          </div>
+          <div class="about-content">
+            <div class="about-item">
+              <figure class="about-avatar">
+                <img src="./assets/images/carlosOK-05.png" alt="">
               </figure>
-              <div class="titles">
-                <div class="project-title">
-                  <a href="https://cargdev.com">Personal web page</a>
-                </div>
-                <div class="project-description">
-                  <p>
-                    Own web page where show my principal projects.
-                  </p>
-                </div>
+            </div>
+            <div class="about-item">
+              <div class="about-description">
+                <p>Hola, Soy Carlos Gutiérrez</p>
               </div>
-              <div class="techs">
-                <p class="tech-title">Technologies used</p>
-                <div class="tech-techs">
-                  <div class="project-technologies">
-                    <div>
-                      <figure class="tech-icon">
-                        <img src="./assets/images/iCONS/html-5.png" alt="">
-                      </figure>
-                      <p>HTML</p>
-                    </div>
-                    <div>
-                      <figure class="tech-icon">
-                        <img src="./assets/images/iCONS/css.png" alt="">
-                      </figure>
-                      <p>CSS</p>
-                    </div>
-                    <div>
-                      <figure class="tech-icon">
-                        <img src="./assets/images/iCONS/1200px-Adobe_XD_CC_icon.svg.png" alt="">
-                      </figure>
-                      <p>CSS</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="about-description">
+                <p>Ingeniero en Mecatrónica</p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="contact" id="Contact">
-        <p class="title">Contact</p>
-        <form action="mailto:ingecarlos.gutierrez@gmail.com" method="post" enctype="text/plain" class="form">
-          <section class="form-name">
-            <label for="name-input" class="form-name__label">Name:*</label>
-            <input type="text" name="Name" value="Name" class="form-name__input" id="name-input">
-          </section>
-          <section class="form-lastname">
-            <label for="lastname-input" class="form-lastname__input" class="form-lastname__label">Last name:*</label>
-            <input type="text" name="lastName" value="Last Name" class="form-lastname__input" id="lastname-input">
-          </section>
-          <section class="form-email">
-            <label for="email-input" class="form-email__label">E-mail:*</label>
-            <input type="mail" name="email" value="email@dominio.com" class="form-email__input" id="email-input">
-          </section>
-          <section class="form-message">
-            <label for="message-input" class="form-message__label">Subject:*</label>
-            <input type="message" name="Message" value="Message" class="form-message__input" id="message-input">
-          </section>
-          <section class="form-buttons">
-            <button class="form-buttons__accept">Send</button>
-          </section>
-        </form>
-      </section>
+      </div>
+      <div class="section" id="about"> <!-- 2 -->
+        <div class="section-aboutMe">
+          <p>¿Quién soy?</p>
+        </div>
+        <div class="section-aboutMe">
+          <figure class="aboutMe-img">
+            <img src="./assets/images/CARGDEV_logo-02.png" alt="">
+          </figure>
+        </div>
+        <div class="section-aboutMe">
+          <p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+      <div class="section" id="projects"> <!-- 3 -->
+        <p>1</p>
+      </div>
+      <div class="section" id="blog"> <!-- 4 -->
+        <p>1</p>
+      </div>
+      <div class="section" id="videos"> <!-- 5 -->
+        <p>1</p>
+      </div>
+      <div class="section" id="contact"> <!-- 6 -->
+        <p>1</p>
+      </div>
     </section>
     <footer class="foot">
-      <div class="foot-item">
-        <figure class="social">
-          <img src="./assets/images/iCONS/github.png" target="_blank" alt="">
-          <a href="https://github.com/CarGDev">GitHub</a>
-        </figure>
-        <figure class="social">
-          <img src="./assets/images/iCONS/linkedin.png" target="_blank" alt="">
-          <a href="https://www.linkedin.com/in/cargdev/">LinkedIn</a>
-        </figure>
-      </div>
-      <div class="foot-item">
-        <figure class="social">
-          <img src="./assets/images/iCONS/correo-electronico.png" alt="">
-          <a href="https://cargdev.com">ingecarlos.gutierrez@gmail.com</a>
-        </figure>
-        <figure class="social">
-          <img src="./assets/images/iCONS/twitter.png" target="_blank" alt="">
-          <a href="https://twitter.com/CarGDev">Twitter</a>
-        </figure>
-      </div>
-      <div class="foot-item">
-        <figure class="social">
-          <img src="./assets/images/iCONS/Capture.JPG" target="_blank" alt="">
-          <a href="https://platzi.com/r/CarGDev/">Obten un mes gratis en Platzi</a>
-        </figure>
-      </div>
+      
     </footer>
+  </section>
   </section>
 </body>
 </html>
