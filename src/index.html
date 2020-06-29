@@ -3,217 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./src/assets/entretenimiento.png">
+  <link rel="stylesheet" href="./src/css/normalize.css">
+  <link rel="stylesheet" href="./src/css/main.css">
+  <link rel="stylesheet" href="./src/css/font/flaticon.css">
   <title>CarGDev</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="./assets/images/entretenimiento.png">
-  <link rel="stylesheet" href="./assets/css/normalize.css" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
-<body>
-  <section class="container">
-    <header class="head">
-      <div class="head-section">
-        <figure class="logo">
-          <img src="./assets/images/CARGDEV_logo-02.png" alt="" class="logo-img">
-        </figure>
+<body class="home-body">
+  <header>
+    <section class="header-icons-container">
+      <div class="text">
+        <p class="text-container__follow">Follow me ==></p>
       </div>
-      <div class="head-section">
-        <div class="lista">
-          <ul class="lista-section">
-            <a href="#about">Acerca de mí</a>
-          </ul>
-        </div>
-      </div>
-      <div class="head-section">
-        <div class="lista">
-          <ul class="lista-section">
-            <a href="#projects">Proyectos</a>
-          </ul>
-        </div>
-      </div>
-      <div class="head-section">
-        <div class="lista">
-          <ul class="lista-section">
-            <a href="#blog">Blog</a>
-          </ul>
-        </div>
-      </div>
-      <div class="head-section">
-        <div class="lista">
-          <ul class="lista-section">
-            <a href="#videos">Videos</a>
-          </ul>
-        </div>
-      </div>
-      <div class="head-section">
-        <div class="lista">
-          <ul class="lista-section">
-            <a href="#contact">Contacto</a>
-          </ul>
-        </div>
-      </div>
-    </header>
-    <section class="content">
-      <div class="section"> <!-- 1 -->
-        <div class="about">
-          <div class="about-content">
-            <figure class="background">
-              <img src="./assets/images/BackGround.jpg" alt="">
-            </figure>
-          </div>
-          <div class="about-content">
-            <div class="about-item">
-              <figure class="about-avatar">
-                <img src="./assets/images/carlosOK-05.png" alt="">
-              </figure>
-            </div>
-            <div class="about-item">
-              <div class="about-description">
-                <p>Hola, Soy Carlos Gutiérrez</p>
-              </div>
-              <div class="about-description">
-                <p>Ingeniero en Mecatrónica</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section" id="about"> <!-- 2 -->
-        <div class="section-aboutMe">
-          <p>¿Quién soy?</p>
-        </div>
-        <div class="section-aboutMe">
-          <figure class="aboutMe-img">
-            <img src="./assets/images/CARGDEV_logo-02.png" alt="">
-          </figure>
-        </div>
-        <div class="section-aboutMe">
-          <p>
-Hola, soy desarrollador web como full stack con experiencia como desarrollador Jr. usando tecnologias como C, Python, JavaScript y mas tecnologias de la industria.
-Con experiencia usando SQL Server para la conexion en el backend.
-          </p>
-        </div>
-      </div>
-      <div class="section" id="projects"> <!-- 3 -->
-        <div class="section-projects">
-          <p>Proyectos</p>
-        </div>
-        <div class="portfolio">
-          <div class="portfolio-item">
-            <figure class="portfolio-img">
-              <img src="./assets/images/Projects/Pagina Web.JPG" alt="">
-              <figurecaption>Página web personal</figurecaption>
-            </figure>
-          </div>
-          <div class="portfolio-item">
-            <p>
-              <a href="https://github.com/CarGDev/PaginaWeb">Creación de la pagina web personal</a>
-            </p>
-          </div>
-          <div class="portfolio-item">
-            <p>
-              Tecnologías usadas
-            </p>
-          </div>
-          <div class="portfolio-item">
-            <div class="icon">
-              <figure class="icon-img">
-                <img src="./assets/images/iCONS/html-5.png" alt="">
-              </figure>
-            </div>
-            <div class="icon">
-              <figure class="icon-img">
-                <img src="./assets/images/iCONS/css.png" alt="">
-              </figure>
-            </div>
-            <div class="icon">
-              <figure class="icon-img">
-                <img src="./assets/images/iCONS/github.png" alt="">
-              </figure>
-            </div>
-            <div class="icon">
-              <figure class="icon-img">
-                <img src="./assets/images/iCONS/1200px-Adobe_XD_CC_icon.svg.png" alt="">
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio">
-          <div class="portfolio-item">
-            <figure class="portfolio-img">
-              <img src="./assets/images/Projects/Generador de contraseñas.JPG" alt="">
-              <figurecaption>Generador de contraseñas</figurecaption>
-            </figure>
-          </div>
-          <div class="portfolio-item">
-            <p>
-              <a href="https://github.com/CarGDev/Generador-Contrase-a">Generador de contraseñas seguras con Python</a>
-            </p>
-          </div>
-          <div class="portfolio-item">
-            <p>
-              Tecnologías usadas
-            </p>
-          </div>
-          <div class="portfolio-item">
-            <div class="icon">
-              <figure class="icon-img">
-                <img src="./assets/images/iCONS/piton.png" alt="">
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio">
-          <div class="portfolio-item">
-            <figure class="portfolio-img">
-              <img src="./assets/images/Projects/BotsTwitter.JPG" alt="">
-              <figurecaption>Bot para twitter</figurecaption>
-            </figure>
-          </div>
-          <div class="portfolio-item">
-            <p>
-              <a href="https://github.com/CarGDev/Bot-Twitter">Creación de bots para twitter utilizadon tweepy</a>
-            </p>
-          </div>
-          <div class="portfolio-item">
-            <p>
-              Tecnologías usadas
-            </p>
-          </div>
-          <div class="portfolio-item">
-            <div class="icon">
-              <figure class="icon-img">
-                <img src="./assets/images/iCONS/piton.png" alt="">
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section" id="blog"> <!-- 4 -->
-        <div class="section-blogs">
-          <p>Blogs</p>
-        </div>
-        <div class="blog">
-          <p>Y tu...¿Como prácticas?</p>
-          <figure>
-            <img src="./assets/images/BLOG/Comopracticas.JPG" alt="">
-          </figure>
-          <a href="https://cargdev.blogspot.com/2020/06/y-tucomo-practicas.html">En veces tomamos un curso y sentimos que el conocimiento que nos ha dado es el definitivo pero en poco tiempo nos damos cuenta que tenemos que practicar.
-
-            Empieza una pelea interna sobre como comenzar...</a>
-        </div>
-      </div>
-      <div class="section" id="videos"> <!-- 5 -->
-        <p>1</p>
-      </div>
-      <div class="section" id="contact"> <!-- 6 -->
-        <p>1</p>
+      <div class="icons">
+        <a href="https://www.facebook.com/Cargdevv/"><span class="flaticon-001-facebook"></span></a>
+        <a href="https://twitter.com/CarGDev"><span class="flaticon-002-twitter"></span></a>
+        <a href="https://www.instagram.com/cargdev/"><span class="flaticon-011-instagram"></span></a>
+        <a href="https://www.linkedin.com/in/cargdev/"><span class="flaticon-010-linkedin"></span></a>
+        <a href="https://www.youtube.com/channel/UCDdVgyz7uzV8MEeO_o4-0tw?view_as=subscriber"><span class="flaticon-008-youtube"></span></a>
       </div>
     </section>
-    <footer class="foot">
-      
-    </footer>
-  </section>
-  </section>
+    <nav>
+      <section class="nav-logo-container">
+        <a href="./index.html"><img src="./src/assets/CARGDEV_logo-02.png" alt="Logotipo"></a>
+      </section>
+      <section class="profile-link">
+        <a href="./src/perfil.html">Sobre mi</a>
+        <a href="./src/blogs.html">Blog</a>
+      </section>
+    </nav>
+  </header>
+  <main class="home-main">
+    <section>
+        <h1 class="home-main-text">Aprendamos juntos con mis <br> historias y noticias del Mundo Tech</h1>
+        <a class="home-main-button" href="./src/perfil.html">Entra ya!</a>
+    </section>
+  </main>
 </body>
 </html>
